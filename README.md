@@ -5,9 +5,10 @@
 * php 7.4 o 8.0
 # Instalación
 * Ingresar a la carpeta del proyecto
+* Crear una copia del archivo `.env.example` con el nombre `.env`
+* Configurar el archivo .env para la conexión de la base de datos
 * Ejecutar `composer install` para instalar las dependencias
 * Ejecutar `php artisan key:generate`
-* Configurar el archivo .env para la coneccion de la base de datos
 * Ejecutar `php artisan serve` para levantar el servidor
 * Ingresar desde un navegador web a la ruta `http://localhost:8000` y Listo!!!!
 # Caracteristicas
